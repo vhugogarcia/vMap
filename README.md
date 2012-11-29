@@ -17,15 +17,17 @@ Load files in the <head> section of your HTML document. Make sure you also add t
         <script type="text/javascript" src="/vmap/jquery.vmap.js"></script>
     </head>
 
-Add the follow HTML to your page under body(wherever you want or need):
-	<body>
+Add the follow HTML to your page under body tag (`section` tag is optional):
+	
+	<section>
 		<div id="map_canvas">
 			
 		</div>
 		<div id="map_list">
 			
 		</div>
-	</body>
+	</section>
+	
 Initialise the script like this:
 
     <script>
