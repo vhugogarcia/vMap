@@ -77,8 +77,6 @@ The data must be returned in strict JSON format, below is a sample of the struct
 			}
 			]
 	}
-
-This plugin work with Java, PHP, ASP.NET or any other language you prefer that supports JS.
 	
 License / Download
 ----------
