@@ -2,7 +2,8 @@ vMap
 ====
 
 A lightning jQuery plugin with HTML 5 that makes easy the use of Google Maps by sending a simple JSON Data Structure.
-vMap not only dsplay the locations markers in the map, but also display a list with the locations, this list offers some extra features for example: A location can be clicked and it will be highlighted in the map.
+
+vMap not only display the locations markers in the map, but also display a list with the locations, this list offers some extra features for example: A location can be clicked and it will be highlighted in the map.
 
 Copyright (c) 2012 Victor Hugo Garcia - iacido[at]gmail.com
 
