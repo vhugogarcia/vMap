@@ -2,6 +2,7 @@ vMap
 ====
 
 A lightning jQuery plugin with HTML 5 that makes easy the use of Google Maps by sending a simple JSON Data Structure.
+vMap not only dsplay the locations markers in the map, but also display a list with the locations, this list offers some extra features for example: A location can be clicked and it will be highlighted in the map.
 
 Copyright (c) 2012 Victor Hugo Garcia - iacido[at]gmail.com
 
@@ -13,8 +14,8 @@ Load files in the <head> section of your HTML document. Make sure you also add t
 
 	<head>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <link rel="stylesheet" href="/vmap/jquery.vmap.css" type="text/css"/>
-        <script type="text/javascript" src="/vmap/jquery.vmap.js"></script>
+        <link rel="stylesheet" href="/jquery.vmap.css" type="text/css"/>
+        <script type="text/javascript" src="/jquery.vmap.js"></script>
     </head>
 
 Add the follow HTML to your page under body tag (`section` tag is optional):
