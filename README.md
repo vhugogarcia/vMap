@@ -1,9 +1,9 @@
 vMap
 ====
 
-A lightning jQuery plugin with HTML 5 that makes easy the use of Google Maps by sending a simple JSON Data Structure.
+A lightning jQuery plugin with HTML 5 that makes Google Maps easy by sending a simple JSON Data Structure.
 
-vMap not only display the locations markers in the map, but also display a list with the locations, this list offers some extra features for example: A location can be clicked and it will be highlighted in the map.
+vMap not only displays the location markers in the map, but also displays a list with the locations, this list offers some extra features, for example: A location can be clicked and it will be highlighted in the map.
 
 Copyright (c) 2012 Victor Hugo Garcia - iacido[at]gmail.com
 
@@ -30,7 +30,7 @@ Add the follow HTML to your page under body tag (`section` tag is optional):
 		</div>
 	</section>
 	
-Initialise the script like this:
+Initialize the script like this:
 
     <script>
         $(document).ready(function() {
@@ -38,7 +38,7 @@ Initialise the script like this:
         });
     </script>
 
-May also be passed an optional options object which will extend the default values. Example:
+It can aslo be passed optional options objects which will extend the default values. Example:
 
     <script>
         $(document).ready(function() {
