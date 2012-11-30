@@ -34,7 +34,7 @@ Initialise the script like this:
 
     <script>
         $(document).ready(function() {
-            $('#map_canvas').vmap({url:'/webservice/get_locations'});
+            $('#map_canvas').vmap({url:"/webservice/get_locations"});
         });
     </script>
 
@@ -43,11 +43,13 @@ May also be passed an optional options object which will extend the default valu
     <script>
         $(document).ready(function() {
             $('#map_canvas').vmap({
-				initLatitude: '31.74',
-				initLongitude: '-95.42',
+				url: "/webservice/get_locations",
+				data: "{'address':'known'}",
+				initLatitude: "31.74",
+				initLongitude: "-95.42",
 				initZoom: 4,
-				classAddress: 'street',
-				classTitle: 'title'
+				classAddress: "street",
+				classTitle: "title"
             });
         });
     </script>
