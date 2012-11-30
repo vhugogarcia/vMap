@@ -34,7 +34,7 @@ Initialise the script like this:
 
     <script>
         $(document).ready(function() {
-            $('#map_canvas').vmap();
+            $('#map_canvas').vmap({url:'/webservice/get_locations'});
         });
     </script>
 
@@ -43,18 +43,36 @@ May also be passed an optional options object which will extend the default valu
     <script>
         $(document).ready(function() {
             $('#map_canvas').vmap({
-				initLatitude: "31.74",
-				initLongitude: "-95.42",
-				url: "/webservice/get_locations",
-				data: "{'address':'known'}",
-				zoom: 4,
-				classAddress: "street",
+				initLatitude: '31.74',
+				initLongitude: '-95.42',
+				initZoom: 4,
+				classAddress: 'street',
 				classTitle: 'title'
             });
         });
     </script>
 
 Note, ajax requests are subject to the [same origin policy](http://en.wikipedia.org/wiki/Same_origin_policy).
+
+Mandatory Parameters
+----------
+<strong>url</strong> A string containing the URL to which the request is sent.
+
+
+Optional Parameters
+----------
+<strong>data</strong> Data to be sent to the server on the Url specified.
+
+<strong>initLatitude</strong> is the Latitude where the map will be centered initially.
+
+<strong>initLongitude</strong> is the Longitude where the map will be centered initially.
+
+<strong>initZoom</strong> is the initial zoom of the map (integer).
+
+<strong>classAddress</strong> assign a class to the tag that encloses the location.
+
+<strong>classTitle</strong> assign a class to the tag where the location title is displayed.
+
 
 Server Side
 ----------
