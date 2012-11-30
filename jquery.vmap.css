@@ -1,0 +1,8 @@
+﻿/*vMap v1.0.0*/
+#map_list div.street{font-size:12px;}
+#map_list {height:30em;overflow-y:auto;}
+#map_list address{cursor:pointer;}
+#map_list address strong:hover{color:#F0B229;}
+#map_list address .title{font-weight:bold;}
+#map_canvas { height:30em; width:540px;}
+#map_canvas .info-title{font-weight:bold;}
