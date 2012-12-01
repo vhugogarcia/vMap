@@ -109,3 +109,5 @@ Bug tracker
 -----------
 
 Have a bug? Please create an issue on GitHub at https://github.com/vhugogarcia/vMap/issues
+
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/b900f12a3465e3691a819495c7e15848 "githalytics.com")](http://githalytics.com/vhugogarcia/vMap)
