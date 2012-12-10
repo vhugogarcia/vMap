@@ -1,0 +1,15 @@
+{
+    "items": [{
+        "Title": "Location 01",
+        "Link": "/",
+        "Latitude": "30.272022",
+        "Longitude": "-97.739182",
+        "Address": "W 9th St, Austin, TX"
+    }, {
+        "Title": "Location 02",
+        "Link": "/",
+        "Latitude": "32.848064",
+        "Longitude": "-96.788564",
+        "Address": "Thackery St, Dallas, TX"
+    }]
+}

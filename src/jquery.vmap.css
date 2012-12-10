@@ -1,0 +1,42 @@
+﻿/* vMap 1.1.0 */
+.vmap{width: 930px;margin: 0;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;font-size: 14px;line-height: 20px;color: #333333;background-color: #ffffff;padding: 4px;line-height: 20px;border: 1px solid #ddd;}
+.vmap a:focus {outline: thin dotted #333;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+.vmap a:hover, .vmap a:active {outline: 0;}
+.vmap a {color: #0088cc;text-decoration: none;}
+.vmap a:hover {color: #005580;text-decoration: underline;}
+
+.vmap .pull-right{float: right;}
+.vmap .pull-left{float:left;}
+.vmap .clearfix{clear:both;}
+.vmap .button {border-color: #c5c5c5;border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);}
+.vmap .button.active {color: rgba(255, 255, 255, 0.75);}
+.vmap .button {font-weight: 400;font-size: 9pt;min-width: 90px;min-height: 32px;height: 32px;background-color: #ccc;border: 1px transparent solid;color: #353535;border-raduis: 0;display: inline-block;text-align: center;vertical-align: top;cursor: pointer;padding: 4px 10px;position: relative;}
+.vmap .button:hover, .vmap .button:active, .vmap .button.active, .vmap .button.disabled, .vmap .button[disabled] {text-decoration:underline; background-color: #2D89EF; *background-color: #2D89EF;}
+.vmap .button:active, .vmap .button.active {background-color: #003399 \9;}
+.vmap .button.bg-color-blue{background-color:#2D89EF;color:#fff;}
+.vmap .input-control {background-color: #FFFFFF;border: 2px solid #BABABA;margin-right: 5px;outline: 0 none;padding: 4px 32px 6px 5px;position: relative;width: 790px;}
+
+/* List */
+.vmap .vmap-list {height:30em;overflow-y:auto;width:380px;display:none;/* Init hidden */}
+.vmap .vmap-list .location {cursor:pointer; margin:10px 0px;}
+.vmap .vmap-list .location .address {font-size:12px;}
+.vmap .vmap-list .location .title {font-weight:bold;}
+.vmap .vmap-list .location .title:hover {color:#F0B229;}
+.vmap .vmap-list .location .directions-link {margin:0px 10px;font-size:10px;}
+.vmap .vmap-list .location .page-link {margin-right: 10px;font-size:10px;}
+
+/* Map */
+.vmap .vmap-canvas {height:30em; width:540px;}
+.vmap .vmap-canvas .info-title {font-weight:bold;}
+
+/* Directions */
+.vmap .vmap-directions .vmap-origin, .vmap-directions .vmap-destination {width: 315px;}
+.vmap .vmap-directions {margin-bottom:10px; display:none;/* Init hidden */}
+
+/* Search */
+.vmap .vmap-search {margin-bottom:10px; display:none;/* Init hidden */}
+.vmap .vmap-search .vmap-address {width:790px;}
+
+/* Misc */
+.vmap .close {float:none;font-size: 20px;font-weight: bold;line-height: 20px;color: #000000;text-shadow: 0 1px 0 #ffffff;opacity: 0.2;filter: alpha(opacity=20);}
+.vmap .close:hover {color: #000000;text-decoration: none;cursor: pointer;opacity: 0.4;filter: alpha(opacity=40);}

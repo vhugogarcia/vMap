@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>vMap 1.1.0 Demo</title>
+		<meta name="description" content="vMap 1.1.0 Demo" />
+		<meta name="author" content="Victor Hugo Garcia Hernandez" />
+		<meta name="keywords" content="html,css,json,jQuery" />
+		<link href="../src/jquery.vmap.css" rel="Stylesheet" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+		<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC24-Mrc7jNqPRDuQF1hqygkRwDZksmalc&sensor=true" type="text/javascript"></script>
+		<script src="../src/jquery.vmap.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(document).ready(function () {
+			$('#map_canvas').vmap({ initZoom: 5, url: 'data.json', showPageLink: true, showDirectionsLink: true, showList: true, showSearch: true });
+		});
+		</script>
+	</head>
+	<body>
+		<div class="vmap">
+			<div class="row">
+				<!-- Search Content -->
+				<div id="map_search" class="vmap-search">
+					<input id="address" class="vmap-address input-control"  type="text" placeholder="Location title..." />
+					<input id="search" class="button bg-color-blue" type="button" value="Search" />
+				</div>
+				<div id="map_directions" class="vmap-directions square">
+					<input id="origin" type="text" placeholder="Origin" class="vmap-origin input-control" value="" />
+					<input id="destination" type="text" placeholder="Destination" class="vmap-destination input-control" />
+					<input id="route" class="button bg-color-blue" type="button" value="GO" />
+					<input id="clear" class="button" type="button" value="Clear" />
+					<a id="close" class="close" href="#">&times;</a>
+				</div>
+			</div>
+			<div class="row">
+				<!--Map content-->
+				<div id="map_canvas" class="vmap-canvas pull-left">
+				</div>
+				<!--Sidebar content-->
+				<div id="map_list" class="vmap-list pull-right">
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</body>
+</html>
