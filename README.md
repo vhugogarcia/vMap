@@ -149,6 +149,11 @@ The data must be returned in strict JSON format, below is a sample of the struct
 			]
 	}
 	
+Screenshots
+----------
+![vMapSearch...](http://i1342.photobucket.com/albums/o773/vhugogarcia/Projects/vMap-Search.png)
+![vMapDirections...](http://i1342.photobucket.com/albums/o773/vhugogarcia/Projects/vMap-Driving.png)
+
 
 Supported Browsers
 ----------
