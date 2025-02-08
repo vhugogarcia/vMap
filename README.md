@@ -5,7 +5,6 @@ A lightning & powerful jQuery plugin with HTML 5 that makes Google Maps v3 easy 
 
 vMap not only displays the location markers in the map, but also displays a list with the locations, this list offers some extra features, for example: A location can be clicked and it will be highlighted in the map.
 
-Copyright (c) 2012 Victor Hugo Garcia - iacido@gmail.com
 
 How to use
 ----------
