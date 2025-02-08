@@ -157,17 +157,3 @@ Screenshots
 Supported Browsers
 ----------
 Chrome, Safari 6+, Firefox, IE 7+, Opera 12+
-	
-License / Download
-----------
-
-vMap licensed under Creative Commons Attribution-NonCommercial 3.0 license.
-You are free to use vMap for your personal or non-profit website projects.
-You can get the author's permission to use vMap for commercial websites. 
-
-Bug tracker
------------
-
-Have a bug? Please create an issue on GitHub at https://github.com/vhugogarcia/vMap/issues
-
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/b900f12a3465e3691a819495c7e15848 "githalytics.com")](http://githalytics.com/vhugogarcia/vMap)
