@@ -156,4 +156,4 @@ Screenshots
 
 Supported Browsers
 ----------
-Chrome, Safari 6+, Firefox, IE 7+, Opera 12+
+Chrome, Safari, Firefox, Edge, Opera
