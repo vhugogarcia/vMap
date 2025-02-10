@@ -59,7 +59,7 @@ Initialize the script like this:
         });
     </script>
 
-It can aslo be passed optional options objects which will extend the default values. Example:
+It can also be passed optional options objects which will extend the default values. Example:
 
     <script>
         $(document).ready(function() {
