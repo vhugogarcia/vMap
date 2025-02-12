@@ -156,4 +156,4 @@ Screenshots
 
 Supported Browsers
 ----------
-Chrome, Safari, Firefox, and Edge
+Chrome, Safari, Firefox, and Edge.
